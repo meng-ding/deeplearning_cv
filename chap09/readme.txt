@@ -12,3 +12,6 @@ Recommendations:
 
 Regularization:
 L1, L2, Elastic Net, dropout, data augmentation, early stopping
+
+cp file_name file_name
+cp /dir /dir
