@@ -10,3 +10,12 @@ starting with a ReLU to obtain a baseline accuracy.
 1.2 Perceptron Architecture
 1.3 Perceptron Training Procedure and the Delta Rule
 1.4 Perceptron Training Termination
+
+Tips:
+1. For keras_mnist, # dataset = datasets.fetch_mldata("MNIST Original") # does not work since As of version 0.20, 
+sklearn deprecates fetch_mldata function and adds fetch_openml instead.
+
+replace by # dataset = fetch_openml('mnist_784') #
+
+2. "plt.plot(np.arange(0, 100), H.history["acc"], label="train_acc")" does not work.
+print(H.history[-1]) find that label'name is "accuracy" instead of "acc".
