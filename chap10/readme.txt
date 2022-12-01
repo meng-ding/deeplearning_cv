@@ -19,3 +19,9 @@ replace by # dataset = fetch_openml('mnist_784') #
 
 2. "plt.plot(np.arange(0, 100), H.history["acc"], label="train_acc")" does not work.
 print(H.history[-1]) find that label'name is "accuracy" instead of "acc".
+
+NN: dataset, loss, model, optimization
+
+Weight Initialization, constant initialization, Uniform and Normal Distributions, LeCun Uniform and Normal, 
+Glorot/Xavier Uniform and Normal (author suggest), He et al./Kaiming/MSRA Uniform and Norma (suggest for ReLu), 
+
