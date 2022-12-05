@@ -54,3 +54,20 @@ after this initial CONV layer the ﬁlter size should drop dramatically, otherwi
 6. use POOL layers (rather than CONV layers) reduce the spatial dimensions of your inpu
 7. using BN in nearly all situations.
 8. place the batch normalization after the activation
+
+
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+for me: udo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev
+
+and 
+
+find libSM.so.6: cannot open shared object file: No such file or directory
+do: sudo apt-get install libsm6
+
+fail
+
+pip install pipreqs
+pipreqs .
+pip install -r requirements.txt
+
+unissued...................................QWQ
