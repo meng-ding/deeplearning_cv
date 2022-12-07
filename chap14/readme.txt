@@ -1,0 +1,1 @@
+LeNet: INPUT => CONV => TANH => POOL => CONV => TANH => POOL => FC => TANH => FC
