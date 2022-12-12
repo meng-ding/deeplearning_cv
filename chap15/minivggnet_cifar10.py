@@ -11,6 +11,9 @@ from keras.datasets import cifar10
 import matplotlib.pyplot as plt
 import numpy as np
 import argparse
+import os
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
