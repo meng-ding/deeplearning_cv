@@ -1,0 +1,1 @@
+transfer learning: 1. extract feature  2.ﬁne-tuning
