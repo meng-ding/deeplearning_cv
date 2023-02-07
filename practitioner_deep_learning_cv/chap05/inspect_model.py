@@ -4,7 +4,7 @@ import argparse
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--include-top", type=int, default=1, help="whether or not to include top of CNN")
+ap.add_argument("-i", "--include_top", type=int, default=1, help="whether or not to include top of CNN")
 args = vars(ap.parse_args())
 
 # load the VGG16 network
